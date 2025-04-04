@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkaethermark_docs=self.webpackChunkaethermark_docs||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Why I\u2019m Building Aethermark","permalink":"/aethermark-docs/blog/why-aethermark","unlisted":false,"date":"2025-04-01T00:00:00.000Z"}]}')}}]);

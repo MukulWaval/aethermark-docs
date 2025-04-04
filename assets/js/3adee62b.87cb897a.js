@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkaethermark_docs=self.webpackChunkaethermark_docs||[]).push([[119],{8137:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/aethermark-docs/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
