@@ -74,9 +74,9 @@ const config: Config = {
       items: [
         {
           type: "docSidebar",
-          sidebarId: "tutorialSidebar",
+          sidebarId: "docsSidebar",
           position: "left",
-          label: "Tutorial"
+          label: "Docs"
         },
         { to: "/blog", label: "Blog", position: "left" },
         {
@@ -92,7 +92,8 @@ const config: Config = {
     },
     prism: {
       theme: prismThemes.github,
-      darkTheme: prismThemes.dracula
+      darkTheme: prismThemes.dracula,
+      additionalLanguages: ["ebnf"]
     }
   } satisfies Preset.ThemeConfig
 };
