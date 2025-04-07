@@ -108,8 +108,8 @@ const config: Config = {
       copyright: `Copyright © ${new Date().getFullYear()} MukulWaval. Built with Docusaurus.`
     },
     prism: {
-      theme: prismThemes.github,
-      darkTheme: prismThemes.dracula,
+      theme: prismThemes.oneLight,
+      darkTheme: prismThemes.oneDark,
       additionalLanguages: ["ebnf"]
     }
   } satisfies Preset.ThemeConfig
