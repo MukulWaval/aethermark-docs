@@ -48,7 +48,41 @@ atx_heading =
         )
     ) ;
 
+setex_heading =
+    [ space ] , [ space ] , [ space ] ,
+    paragraph_line ,
+    { newline , [ space ] , [ space ] , [ space ] , paragraph_line } ,
+    newline ,
+    [ space ] , [ space ] , [ space ] ,
+    ( setext_underline ) ,
+    newline ;
+
+setext_underline =
+    "=" , { "=" } | "-" , { "-" } ;
+
+indented_code_block =
+    indented_chunk ,
+    { { blank_line } , { indented_chunk } } ,
+    newline ;
+
+indented_chunk =
+    indented_line , { newline , indented_line } ;
+
+indented_line =
+    space , space , space , space , { space } ,
+    ( { charecter } ) ;
+
+blank_line =
+    [ space ] , [ space ] , [ space ] , [ space ] , { space } , newline ;
+
+paragraph_line =
+    character , { character } ;
+
+character =
+    non_whitespace
+    | whitespace ;
 whitespace = space | tab ;
+non_whitespace = ? all characters except space, tab, newline, carriage return ?
 newline = [ "\n" ] , [ "\r" ] ;
 space = " " ;
 tab = "\t" ;
