@@ -10,28 +10,28 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # Ensure full history is fetched to access all commits
+          fetch-depth: 0
 
       - name: Read Last Commit Hash from .last_commit
         run: |
           if [ -f .last_commit ]; then
             LAST_COMMIT_HASH=$(cat .last_commit)
           else
-            LAST_COMMIT_HASH=$(git rev-list --max-parents=0 HEAD)  # Use first commit if no record
+            LAST_COMMIT_HASH=$(git rev-list --max-parents=0 HEAD)
           fi
           echo "LAST_COMMIT_HASH=$LAST_COMMIT_HASH" >> $GITHUB_ENV
 
-      - name: Read Version from VERSION file
+      - name: Set Release Date
         run: |
-          VERSION=$(cat VERSION)
-          echo "VERSION=$VERSION" >> $GITHUB_ENV
+          RELEASE_DATE=$(date +'%Y-%m-%d')
+          echo "RELEASE_DATE=$RELEASE_DATE" >> $GITHUB_ENV
 
       - name: Generate Changelog
         run: |
-          echo "## Changelog for Version $VERSION" > changelog.md
+          echo "## Changelog for $RELEASE_DATE" > changelog.md
           echo "" >> changelog.md
 
-          declare -A commit_types=( 
+          declare -A commit_types=(
             [feat]="🚀 Features"
             [fix]="🛠 Fixes"
             [perf]="⚡ Performance Improvements"
@@ -47,7 +47,7 @@ jobs:
             [workflow]="⚙️ Workflow Changes"
           )
 
-          HAS_CHANGES=0  # Track if we have at least one section
+          HAS_CHANGES=0
 
           for type in "${!commit_types[@]}"; do
             section=${commit_types[$type]}
@@ -68,7 +68,7 @@ jobs:
 
       - name: Update HISTORY.md
         run: |
-          echo "## Changelog for Version $VERSION" >> HISTORY.md
+          echo "## Changelog for $RELEASE_DATE" >> HISTORY.md
           echo "" >> HISTORY.md
           cat changelog.md >> HISTORY.md
 
@@ -90,5 +90,5 @@ jobs:
             exit 0
           fi
 
-          git commit -m "Update changelog and HISTORY.md for version $VERSION, update .last_commit"
+          git commit -m "Update changelog and HISTORY.md for $RELEASE_DATE, update .last_commit"
           git push
