@@ -63,6 +63,12 @@ const config: Config = {
   ],
 
   themeConfig: {
+    metadata: [
+      {
+        name: "google-site-verification",
+        content: "9iXwiOoXjd1GGReVzS--yOGPR6_KBQ5M8-KfFBzcbqw"
+      }
+    ],
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
     navbar: {
