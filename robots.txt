@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mukulwaval.github.io/aethermark-docs/sitemap.xml
