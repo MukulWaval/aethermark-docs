@@ -5,7 +5,6 @@ import styles from "./styles.module.css";
 
 import PerformanceIcon from "@site/static/img/PerformanceIcon.svg";
 import CustomSyntaxIcon from "@site/static/img/CustomSyntaxIcon.svg";
-import ExtensibilityIcon from "@site/static/img/ExtensibilityIcon.svg";
 
 const FeatureList = [
   {
@@ -15,16 +14,10 @@ const FeatureList = [
       "Leverages pybind11 for optimized execution and fast rendering speeds."
   },
   {
-    title: "Aethermark-Flavored Markdown (AFM)",
+    title: "Aether-Flavored Markdown (AFM)",
     Svg: CustomSyntaxIcon,
     description:
       "Extends standard Markdown with additional features for enhanced flexibility."
-  },
-  {
-    title: "Extensible and Customizable",
-    Svg: ExtensibilityIcon,
-    description:
-      "Designed for easy integration and extension to fit various use cases."
   }
 ];
 

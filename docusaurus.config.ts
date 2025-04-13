@@ -17,7 +17,7 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "MukulWaval", // Usually your GitHub org/user name.
+  organizationName: "aethermark", // Usually your GitHub org/user name.
   projectName: "aethermark-docs", // Usually your repo name.
 
   onBrokenLinks: "throw",
@@ -39,7 +39,7 @@ const config: Config = {
           sidebarPath: "./sidebars.ts",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/MukulWaval/aethermark-docs/tree/main/"
+          editUrl: "https://github.com/aethermark/aethermark-docs/tree/main/"
         },
         blog: {
           showReadingTime: true,
@@ -49,7 +49,7 @@ const config: Config = {
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/MukulWaval/aethermark-docs/tree/main/",
+          editUrl: "https://github.com/aethermark/aethermark-docs/tree/main/",
           // Useful options to enforce blogging best practices
           onInlineTags: "warn",
           onInlineAuthors: "warn",
@@ -97,7 +97,7 @@ const config: Config = {
         },
         { to: "/blog", label: "Blog", position: "left" },
         {
-          href: "https://github.com/MukulWaval/aethermark",
+          href: "https://github.com/aethermark/aethermark",
           label: "GitHub",
           position: "right"
         }
@@ -105,7 +105,7 @@ const config: Config = {
     },
     footer: {
       style: "dark",
-      copyright: `Copyright © ${new Date().getFullYear()} MukulWaval. Built with Docusaurus.`
+      copyright: `Copyright © ${new Date().getFullYear()} Aethermark. Built with Docusaurus.`
     },
     prism: {
       theme: prismThemes.oneLight,
