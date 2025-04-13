@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkaethermark_docs=self.webpackChunkaethermark_docs||[]).push([[903],{1912:e=>{e.exports=JSON.parse('{"blogBasePath":"/aethermark-docs/blog","blogTitle":"Blog","authorsListPath":"/aethermark-docs/blog/authors"}')}}]);

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>AETHERMARK Blog</title>
-        <link>https://mukulwaval.github.io/aethermark-docs/blog</link>
+        <link>https://aethermark.dev/blog</link>
         <description>AETHERMARK Blog</description>
         <lastBuildDate>Tue, 01 Apr 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,25 +10,25 @@
         <language>en</language>
         <item>
             <title><![CDATA[Why I’m Building Aethermark]]></title>
-            <link>https://mukulwaval.github.io/aethermark-docs/blog/why-aethermark</link>
-            <guid>https://mukulwaval.github.io/aethermark-docs/blog/why-aethermark</guid>
+            <link>https://aethermark.dev/blog/why-aethermark</link>
+            <guid>https://aethermark.dev/blog/why-aethermark</guid>
             <pubDate>Tue, 01 Apr 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[Aethermark is a Markdown system designed for everyone — offering feature-rich content with clean, readable syntax.]]></description>
             <content:encoded><![CDATA[<p>Markdown was created to be simple. But over time, it’s become complicated — fragmented across platforms, overloaded with extensions, and filled with inconsistent behaviors.</p>
 <p><strong>Aethermark</strong> is my answer to that drift.</p>
 <p>It’s a Markdown system that puts simplicity first, without sacrificing capability.</p>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="made-for-everyone">Made for Everyone<a href="https://mukulwaval.github.io/aethermark-docs/blog/why-aethermark#made-for-everyone" class="hash-link" aria-label="Direct link to Made for Everyone" title="Direct link to Made for Everyone">​</a></h4>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="made-for-everyone">Made for Everyone<a href="https://aethermark.dev/blog/why-aethermark#made-for-everyone" class="hash-link" aria-label="Direct link to Made for Everyone" title="Direct link to Made for Everyone">​</a></h4>
 <p>Aethermark isn’t just for developers or technical writers. It’s for anyone who wants to write content that’s clean, expressive, and portable.</p>
 <p>Whether you're building documentation, creating internal tools, writing posts, or preparing presentations — Aethermark gives you a consistent foundation with minimal effort.</p>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="simplicity-with-power">Simplicity with Power<a href="https://mukulwaval.github.io/aethermark-docs/blog/why-aethermark#simplicity-with-power" class="hash-link" aria-label="Direct link to Simplicity with Power" title="Direct link to Simplicity with Power">​</a></h4>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="simplicity-with-power">Simplicity with Power<a href="https://aethermark.dev/blog/why-aethermark#simplicity-with-power" class="hash-link" aria-label="Direct link to Simplicity with Power" title="Direct link to Simplicity with Power">​</a></h4>
 <p>The focus is simple: write once, understand everywhere.</p>
 <p>Aethermark doesn’t make you learn a new syntax. It doesn’t clutter your content with visual noise. It respects the plain-text readability of Markdown while allowing for enhanced layout, structure, and visual flow.</p>
 <p>Features are there when you need them — but they never get in your way.</p>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="why-build-it">Why Build It?<a href="https://mukulwaval.github.io/aethermark-docs/blog/why-aethermark#why-build-it" class="hash-link" aria-label="Direct link to Why Build It?" title="Direct link to Why Build It?">​</a></h4>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="why-build-it">Why Build It?<a href="https://aethermark.dev/blog/why-aethermark#why-build-it" class="hash-link" aria-label="Direct link to Why Build It?" title="Direct link to Why Build It?">​</a></h4>
 <p>Because most modern Markdown tools make you choose: <strong>simplicity or power</strong>.<br>
 <!-- -->I believe you can have both.</p>
 <p>Aethermark is built to prove that. Feature-rich, yet approachable. Powerful, yet clean. Not extensible for the sake of extensibility — but <strong>thoughtfully designed to do more with less</strong>.</p>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="the-goal">The Goal<a href="https://mukulwaval.github.io/aethermark-docs/blog/why-aethermark#the-goal" class="hash-link" aria-label="Direct link to The Goal" title="Direct link to The Goal">​</a></h4>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="the-goal">The Goal<a href="https://aethermark.dev/blog/why-aethermark#the-goal" class="hash-link" aria-label="Direct link to The Goal" title="Direct link to The Goal">​</a></h4>
 <p>The raw Markdown source should tell the full story — no rendering required.</p>
 <p>Aethermark is about <strong>clarity</strong>, <strong>legibility</strong>, and <strong>intentional design</strong>.</p>
 <p>It’s Markdown that works the way you expect — and gives you more without asking more.</p>]]></content:encoded>
